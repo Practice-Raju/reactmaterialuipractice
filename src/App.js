@@ -1,7 +1,7 @@
 
 import './App.css';
 import {Button, TextField} from '@material-ui/core';
-import Header from './NavBar';
+import Header from './hoc/NavBar';
 function App() {
   return (
     <div className="App">

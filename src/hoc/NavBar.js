@@ -38,7 +38,7 @@ function Header() {
       </List>
   )
   return (
-    <AppBar position='static'>
+    <AppBar position='static' style={{"backgroundColor":'rgb(64,157,120)'}}>
       <Toolbar>
         <IconButton
           style={{ "color": "white" }}
