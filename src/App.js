@@ -1,6 +1,10 @@
 
 import './App.css';
-import {Button, TextField} from '@mui/material';
+import {
+  Button, 
+  TextField,
+  Drawer
+} from '@mui/material';
 import Header from './hoc/NavBar';
 import Dashboard from './pages/dashboard';
 import CircularProgress from '@mui/material/CircularProgress';
@@ -8,11 +12,17 @@ function App() {
   return (
     <div className="App">
       <Header/>
-     <CircularProgress></CircularProgress>
-      Just checking
-      <Button color="primary" variant='contained'>Press me </Button>
-      <TextField id="name" label="Name" variant="outlined" />
+      <div style={{display:'flex'}}>
       <Dashboard/>
+      <nav style={{position:'sticky', width:'240px'}}>
+        <a>
+          <div className='ukraine'>
+            <CircularProgress/>
+          </div>
+        </a>
+      </nav>
+      </div>
+    
     </div>
   );
 }

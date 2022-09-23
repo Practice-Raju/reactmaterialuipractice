@@ -67,7 +67,7 @@ function NavBar() {
             
           </Typography>
         <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
+            <Tooltip title="Profile settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Murugaraju" src="/static/images/avatar/saitama-pic.png" />
               </IconButton>
